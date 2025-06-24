@@ -1,0 +1,60 @@
+<!----codeInHTMLBySohamGonbhare------->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,intial-scale =1.0">
+    <title> Feedback Form Card</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1> Feedback form using Html CSS</h1>
+    <div class="form-box">
+    <div class ="textup">
+        <i class="fa fa-solid fa-clock"></i>
+        it onyl takes two minutes!!
+        </div>
+        <form>
+            <label for="uname">
+                <i class=""fa fa-solid fa user"></i>
+            name
+            </label>
+            <input type="text" id="uname" name="uname" required>
+            <label for="email">
+                <i class ="fa fa-solid fa-envelope"></i>
+            </label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">
+                <i class="fa-solid fa-phone"></i>
+                 phone no.
+             </label>
+             <input type="telephone" id="phone" name="phone" required>
+             <label>
+                <i class="fa-solid fa-face-smile"></i>
+                Are you satisfied with our service?
+             </label>   
+             <div class="radiogroup">
+                <input type="radio" id="yes"
+                name="satisied" value="yes" checked>
+                <label for="yes">YES</label>
+                <input type="radio" id ="no"
+                name="not satified" value="no">
+                <label for="no">NO</label>
+            </div>  
+            <label for="feedbackmessages">
+              <i class="fa-solid fa-comments" style="margin-right:8px;" ></i> 
+              write your suggestions here:
+
+            </label>
+            <textarea id="msg" name="msg"
+            rows="4" cols="10" required></textarea>
+            <button type="submit">
+                SUBMIT
+            </button>
+
+        </form>
+        </div>
+</body>
+</html>
